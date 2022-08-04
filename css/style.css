@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+}
+.headerIcon{
+    width: 15rem;
+    height: 10rem;
+}
+.headerAccesorios{
+    width: 15rem;
+    height: 9rem;
+    position: relative;
+    left:70rem;
+    margin-top:0.5rem;
+}
+.header{
+    margin:0;
+    background-color: #4D4746;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
+    display: flex;
+}
+.containerTitulos{
+    align-items: top;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    position: relative;
+    right: 14rem;}
+    
+.containerContactos{
+    margin-top: 1rem;
+    position: relative;
+    left: 60rem;
+    }
+
+.headerMenu{
+    display:flex;
+    align-items:flex-end;
+    justify-content:space-evenly;
+    position: relative;
+    right:23rem;
+    margin-bottom: 1.5rem;
+}
+.headerMenu li{
+margin-right: 5rem;
+list-style: none;
+}
+.cards{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: rgba(red, green, blue, alpha);
+}
+
+
+.carritoCompra{
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+
+}
+
+.form-control{
+    margin-left: 3%;
+    width: 60%;
+}
+
+.formulario{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
