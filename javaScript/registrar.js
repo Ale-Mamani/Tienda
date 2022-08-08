@@ -11,19 +11,7 @@ form.addEventListener('submit', (event) => {
 
     const guardarLocal = (clave, valor) => { localStorage.setItem(clave, valor) };
     guardarLocal("datosUsuarios", JSON.stringify(datosUsuarios));
-
-    /*
-      let mail = document.querySelector('#inputEmail4').value;
-      let clave = document.querySelector('#inputPassword4').value;
-      let direccion = document.querySelector('#inputAddress').value;
-      let ciudad = document.querySelector('#inputCity').value;
-      let pais = document.querySelector('#inputCountry').value;
-      console.log(mail, clave, direccion, ciudad, pais);
-
-      function guardarLocal(clave, valor) { localStorage.setItem(clave, valor); }
-      guardarLocal("correo", JSON.stringify(mail));
-      guardarLocal("clave", JSON.stringify(clave));
-      guardarLocal("direccion", JSON.stringify(direccion));
-      guardarLocal("ciudad", JSON.stringify(ciudad));
-      guardarLocal("pais", JSON.stringify(pais));*/
       });
+
+      
+
